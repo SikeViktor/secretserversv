@@ -10,7 +10,7 @@ curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: ap
 
 Már meglévő titok lekérdezése (json) :
 
-curl -X 'GET' -H 'accept: application/json' https://secretserversv.000webhostapp.com/secret/64588efbd8a0d
+curl -X GET -H 'accept: application/json' https://secretserversv.000webhostapp.com/secret/64588efbd8a0d
 
 Új titok létrehozása (xml) :
 
@@ -18,4 +18,4 @@ curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: ap
 
 Már meglévő titok lekérdezése (xml) :
 
-curl -X 'GET' -H 'accept: application/xml' https://secretserversv.000webhostapp.com/secret/64588efbd8a0d
+curl -X GET -H 'accept: application/xml' https://secretserversv.000webhostapp.com/secret/64588efbd8a0d
